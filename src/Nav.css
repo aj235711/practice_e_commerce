@@ -1,0 +1,34 @@
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+    background-color: black;
+}
+
+li{
+    color: white;
+    padding: 20px;
+    /*border: 1px solid #bbb;*/
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.push{
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav{
+        font-size: 0.5em;
+    }
+}
+
+.steady{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

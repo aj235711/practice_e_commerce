@@ -1,0 +1,31 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    border: 1px solid black;
+    width: 25vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;;
+    flex-flow: row wrap;
+    align-items: stretch;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #444;
+}
+
+.imgcontainer {
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    padding: 20px;
+    width: 20vw;
+    height: auto;
+    cursor: pointer;
+}
